@@ -18,5 +18,15 @@ let negValue =-value
 console.log(negValue);
 
 
+string1="hello"
+string2=" world"
+console.log(string1+string2);
+
+console.log("1"+"2")
+console.log(1+3+"2")
+
+
+
+
 
 
