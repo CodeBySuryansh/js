@@ -29,3 +29,18 @@ const myFunction=function(){
     console.log("hello world");
     
 }
+
+
+//-------------------------stack and heap memory---------------------------
+//primitive --stack
+//non primitive --heap
+
+let a=10;
+let b=a; //here the copy is made if we change the a than there will be no chnage in the b
+
+
+
+let obj1 = { name: "Alice" };
+let obj2 = obj1;
+obj1.name = "Bob";//here changes made in one variable reflected in both
+console.log(obj2.name); // "Bob" – same reference
