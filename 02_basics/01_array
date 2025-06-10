@@ -1,0 +1,17 @@
+//array
+const myArr = [5,8,72,9,12]
+console.log(myArr)
+console.log(myArr[0])
+const myHeroes=["shaktiman","naag"]
+
+const newArr=new Array(0,1,5,2)
+console.log(newArr[1]);
+
+myArr.push(6);
+myArr.push(7);
+myArr.pop();
+console.log(myArr);
+
+//myArr.unshift(9)
+myArr.shift()
+console.log(myArr)
